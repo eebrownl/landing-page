@@ -63,8 +63,8 @@ button {
 
 .bowtie {
     height: auto;
-    width: 100px;
-    margin-bottom: 20px;
+    width: 200px;
+    margin-bottom: 50px;
 }
 
 .top-right {
@@ -72,4 +72,34 @@ button {
     align-items: center;
     justify-content: center;
     flex-grow: 1;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.charlies {
+    height: auto;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px 50px 200px;
+}
+
+.under-image {
+    max-width: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+    font-style: oblique;
+
 }
