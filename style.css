@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-.body {
-    font-family: 'Roboto', sans-serif;
+body {
+    font-family: Robot, sans-serif;
 }
 
 .one {
@@ -37,7 +37,7 @@ ul {
 
 .main {
     display: flex;
-    margin: 20px 70px;
+    margin: 70px 70px 0px 70px;
     gap: 20px;
 }
 .hero {
@@ -55,7 +55,7 @@ ul {
 
 button {
     background-color: #3882f6;
-    padding: 6px;
+    padding: 6px 20px 6px 20px;
     border-radius: 8px;
     color: #F9FAF8;
     border: none;
@@ -83,6 +83,12 @@ button {
     margin-bottom: 30px;
 }
 
+.two {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .charlies {
     height: auto;
     width: 200px;
@@ -91,8 +97,8 @@ button {
 
 .images {
     display: flex;
-    justify-content: space-between;
-    margin: 0px 200px 50px 200px;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .under-image {
@@ -101,5 +107,67 @@ button {
     font-size: 18px;
     color: #1f2937;
     font-style: oblique;
+}
 
+.three {
+    background-color: #E5E7EB; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    margin: 0px 150px;
+}
+
+.attribution {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 600;
+    display: flex;
+    justify-content: end;
+    margin: 10px 200px 0px 200px;
+}
+
+.inset {
+    background-color: #3882f6;
+    color: #F9FAF8; 
+    display: flex;
+    margin: 100px;
+    padding: 50px;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.time {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.click {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.button2 {
+    border: 2px solid #F9FAF8;
+    padding: 0px 40px;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.footer {
+    color:#E5E7EB;
+    background-color: #1f2937;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
